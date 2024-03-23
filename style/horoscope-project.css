@@ -11,13 +11,41 @@ h1 {
 	font-style: normal;
 	color: rgb(253, 240, 213);
 	text-align: center;
+	font-size: 60px;
 }
 div {
-	width: 50%;
+	width: 60%;
 	height: 50%;
 	align-items: center;
 	display: block;
 	justify-content: center;
-	border-style: solid;
 	text-align: center;
+}
+.menu {
+	border: none;
+	padding: 10px;
+	height: 50px;
+	width: 250px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: "Bitter", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: rgb(102, 155, 188, 0.5);
+	color: rgb(253, 240, 213);
+}
+.menu:hover {
+	background-color: rgb(253, 240, 213);
+	color: rgb(0, 48, 73);
+}
+button {
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+p {
+	color: rgb(253, 240, 213);
 }
