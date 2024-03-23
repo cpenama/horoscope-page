@@ -1,5 +1,5 @@
 body {
-	height: 100vh;
+	height: 65vh;
 	place-items: center;
 	display: grid;
 	background-color: rgb(0, 48, 73);
@@ -15,7 +15,7 @@ h1 {
 }
 div {
 	width: 60%;
-	height: 50%;
+	height: 5%;
 	align-items: center;
 	display: block;
 	justify-content: center;
@@ -42,10 +42,28 @@ div {
 	color: rgb(0, 48, 73);
 }
 button {
-	padding: 10px 20px;
+	padding: 12px 30px;
 	font-size: 20px;
 	cursor: pointer;
+	font-family: "Bitter", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	border-radius: 10px;
+	background-color: rgb(253, 240, 213);
+	border: none;
+	color: rgb(0, 48, 73);
 }
-p {
+button:hover {
+	background-color: rgb(102, 155, 188, 0.5);
 	color: rgb(253, 240, 213);
+}
+.star-sign {
+	color: rgb(253, 240, 213);
+	font-family: "Jacquarda Bastarda 9", serif;
+	font-weight: 550;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	width: 400px;
 }
