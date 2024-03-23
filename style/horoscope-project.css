@@ -1,0 +1,23 @@
+body {
+	height: 100vh;
+	place-items: center;
+	display: grid;
+	background-color: rgb(0, 48, 73);
+	background-image: url('bgr-img.png');
+}
+h1 {
+	font-family: "Jacquarda Bastarda 9", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(253, 240, 213);
+	text-align: center;
+}
+div {
+	width: 50%;
+	height: 50%;
+	align-items: center;
+	display: block;
+	justify-content: center;
+	border-style: solid;
+	text-align: center;
+}
