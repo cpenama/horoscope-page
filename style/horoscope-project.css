@@ -66,11 +66,9 @@ button:hover {
 	text-align: center;
 	display: grid;
 	justify-content: center;
-	border-radius: 10px;
-	background-color: rgb(253, 240, 213, 0.5);
 }
 .star-sign-placeholder {
-	color: rgb(0, 48, 73);
+	color: rgb(253, 240, 213);
 	font-family: "Jacquarda Bastarda 9", serif;
 	font-weight: 550;
 	font-style: normal;
@@ -85,7 +83,7 @@ button:hover {
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: normal;
-	color: rgb(0, 48, 73);
+	color: rgb(253, 240, 213);
 	height: 150%;
 	width: 100%;
 	text-align: center;
