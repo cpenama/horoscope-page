@@ -6,9 +6,6 @@ function assignZodiacSign() {
 	const valueMonth = elementMonthSelection.value;
 	const valueDay = elementDaySelection.value;
 
-	console.log('Month ', valueMonth);
-	console.log('Day ', valueDay)
-
 	if ((valueMonth === 'March' && valueDay >= 21) || 
     (valueMonth === 'April' && valueDay <= 19)) {
 		document.querySelector('.js-horoscope-reveal').innerHTML = '♈ Aries';
